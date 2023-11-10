@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         </script> */}
         <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"></link>
         <link href="/css/font-awesome.min.css" rel="stylesheet"></link>
-        <link href="css/style.css" rel='stylesheet' type='text/css' media="all"></link>
+        <link href="/css/style.css" rel='stylesheet' type='text/css' media="all"></link>
         <link href="//fonts.googleapis.com/css?family=Thasadith:400,700" rel="stylesheet"></link>
         <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet"></link>
       </head>

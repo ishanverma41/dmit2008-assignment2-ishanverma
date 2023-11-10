@@ -7,7 +7,7 @@ import HomeContent from '@/components/landingPage/HomeContent'
 export default function Home() {
   return (
     <main>
-      <PageHeader></PageHeader>
+      <PageHeader title={"Explore and Purchase Videos"}></PageHeader>
       <HomeContent></HomeContent>
       <PageFooter></PageFooter>
     </main>
