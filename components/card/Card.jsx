@@ -1,7 +1,7 @@
 export default function Card ({videoData}){
     return(<>
 
-        <div className="card mx-1" style={{width: "16rem"}}>
+        <div className="card mx-1" >
             <img src={videoData?.thumbnail}  className="card-img-top" alt="thumbnail" height={200}/>
             <div className="card-body">
                 <h5 className="card-title text-min-2">{videoData?.title}</h5>

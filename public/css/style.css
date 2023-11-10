@@ -3,6 +3,9 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+.many-items-container {
+  margin-top: 180px;
+}
 .text-min-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -457,6 +460,9 @@ background-color: #212121;
 }
 
 @media all and (max-width: 568px) {
+  .many-items-container {
+    margin-top: 250px !important;
+  }
   nav a,
   .menu .toggle,
   nav ul li ul li .toggle,
@@ -467,6 +473,9 @@ background-color: #212121;
 }
 
 @media all and (max-width: 320px) {
+  .many-items-container {
+    margin-top: 250px !important;
+  }
   nav a,
   .menu .toggle,
   nav ul li ul li .toggle,
@@ -1264,6 +1273,9 @@ a.move-top {
 }
 
 @media (max-width: 667px) {
+  .many-items-container {
+    margin-top: 250px !important;
+  }
   .main-top {
     min-height: 514px;
   }
@@ -1285,6 +1297,9 @@ a.move-top {
 }
 
 @media (max-width: 640px) {
+  .many-items-container {
+    margin-top: 250px !important;
+  }
   .main-banner h4 {
     font-size: 1.8em;
   }
@@ -1307,6 +1322,9 @@ a.move-top {
 }
 
 @media (max-width: 600px) {
+  .many-items-container {
+    margin-top: 250px !important;
+  }
   .collection-w3layouts {
     padding-top: 1.5em;
   }
@@ -1322,6 +1340,9 @@ a.move-top {
 }
 
 @media (max-width: 568px) {
+  .many-items-container {
+    margin-top: 250px !important;
+  }
   .main-top {
     min-height: 454px;
   }
@@ -1370,6 +1391,9 @@ a.move-top {
 }
 
 @media (max-width: 480px) {
+  .many-items-container {
+    margin-top: 250px !important;
+  }
   .two-demo-button p {
     padding-right: 1em;
   }
@@ -1478,6 +1502,9 @@ a.move-top {
 }
 
 @media (max-width: 375px) {
+  .many-items-container {
+    margin-top: 250px !important;
+  }
   .fashion-collet-txt h5 {
     font-size: 1.6em;
   }
@@ -1499,6 +1526,9 @@ a.move-top {
 }
 
 @media (max-width: 320px) {
+  .many-items-container {
+    margin-top: 250px !important;
+  }
   .style-banner {
     padding-top: 8em;
   }

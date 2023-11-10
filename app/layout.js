@@ -1,3 +1,4 @@
+import Navbar from '@/components/navigation/Navbar'
 import './globals.css'
 
 export default function RootLayout({ children }) {
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet"></link>
       </head>
       <body>
+        <Navbar></Navbar>
         {children}
       </body>
     </html>

@@ -11,15 +11,15 @@ async function VideosPage() {
     return (
         <>
             <PageHeader title="Video Vault: Explore Our Collection" tagline="Uncover, Watch, and Experience the Stories That Matter." />
-            <div className="container">
-                <div className="row" style={{ marginTop: "180px" }}>
+            <div className="container" >
+                <div className="row" >
                     {
                         payload && payload.map(item =>
                             <div key={item.video_id} className="col col-md-3 mt-2">
                                 <Card videoData={item} /></div>)
                     }
                 </div>
-            </div>
+            </div >
         </>
     )
 }
