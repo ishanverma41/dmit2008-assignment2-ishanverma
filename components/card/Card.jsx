@@ -13,7 +13,7 @@ export default function Card ({videoData}){
                 <p><strong>Duration:</strong> {videoData?.duration} mins</p>
                 <p><strong>Rating:</strong> {videoData?.rating}</p>           
                 <p><strong>Language:</strong>{videoData?.language}</p>
-               <div className="text-center mt-2"><a href={`/single-item/${videoData?.video_id}`} className="btn btn-primary">View</a></div> 
+               <div className="text-center mt-2"><a href={`/products/${videoData?.video_id}`} className="btn btn-primary">View</a></div> 
             </div>
          </div>
        
